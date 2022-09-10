@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from __future__ import with_statement
 from __future__ import absolute_import
 from __future__ import division
@@ -13,7 +14,7 @@ def plotGraph(yDataArray, xDataArray, accuracy):
         print unicode(segment) + u" " * (len(unicode(height)) - len(unicode(segment))) + u"|",; sys.stdout.write( u"")
         for y in yDataArray:
             if(y >= segment):
-                print u"*",
+                print u"█",
             else:
                 print u" ",
         print

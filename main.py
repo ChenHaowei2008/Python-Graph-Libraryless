@@ -7,7 +7,7 @@ def plotGraph(yDataArray, xDataArray, accuracy):
         print(str(segment) + " " * (len(str(height)) - len(str(segment))) + "|", end = "")
         for y in yDataArray:
             if(y >= segment):
-                print("*", end = " ")
+                print("█", end = " ")
             else:
                 print(" ", end = " ")
         print()
